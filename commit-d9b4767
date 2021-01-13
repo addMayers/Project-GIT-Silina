@@ -1,0 +1,19 @@
+From d9b476764b1e081c87e4a07e9afe3cb2e51c88de Mon Sep 17 00:00:00 2001
+From: Tem4ik91 <purgen-666@ya.ru>
+Date: Wed, 13 Jan 2021 17:28:00 +0300
+Subject: my change!
+
+
+diff --git a/main.c b/main.c
+index 63b32cd..5e4180e 100644
+--- a/main.c
++++ b/main.c
+@@ -8,7 +8,7 @@ int main(int argc, char **argv)
+ 
+     askname(first, last);
+ 
+-    printf("Hello, %s %s!\n", first, last);
++    printf("hello earthlings, I made changes , %s %s!\n", first, last);
+     return 0;
+ }
+ 

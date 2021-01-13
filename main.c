@@ -10,6 +10,7 @@ int main(int argc, char **argv)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     printf("Hello! %s %s!\n", first, last);
 =======
     printf("hello earthlings, I made changes , %s %s!\n", first, last);
@@ -17,6 +18,9 @@ int main(int argc, char **argv)
 =======
     printf("Hello! %s %s!\n", first, last);
 >>>>>>> 33fe8b4 (okaaaay)
+=======
+    printf("hello earthlings, I made changes , %s %s!\n", first, last);
+>>>>>>> d9b4767 (my change!)
     return 0;
 }
 
