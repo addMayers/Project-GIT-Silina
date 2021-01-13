@@ -1,0 +1,55 @@
+From 808eeee40376df6e81b65aac18530392e57fafbf Mon Sep 17 00:00:00 2001
+From: Tem4ik91 <purgen-666@ya.ru>
+Date: Wed, 13 Jan 2021 17:28:00 +0300
+Subject: my change!
+
+# Conflicts:
+#	main.c
+
+diff --git a/commit-d9b4767 b/commit-d9b4767
+new file mode 100644
+index 0000000..475b3f5
+--- /dev/null
++++ b/commit-d9b4767
+@@ -0,0 +1,19 @@
++From d9b476764b1e081c87e4a07e9afe3cb2e51c88de Mon Sep 17 00:00:00 2001
++From: Tem4ik91 <purgen-666@ya.ru>
++Date: Wed, 13 Jan 2021 17:28:00 +0300
++Subject: my change!
++
++
++diff --git a/main.c b/main.c
++index 63b32cd..5e4180e 100644
++--- a/main.c
+++++ b/main.c
++@@ -8,7 +8,7 @@ int main(int argc, char **argv)
++ 
++     askname(first, last);
++ 
++-    printf("Hello, %s %s!\n", first, last);
+++    printf("hello earthlings, I made changes , %s %s!\n", first, last);
++     return 0;
++ }
++ 
+diff --git a/main.c b/main.c
+index 146d5eb..b81ab24 100644
+--- a/main.c
++++ b/main.c
+@@ -8,6 +8,7 @@ int main(int argc, char **argv)
+ 
+     askname(first, last);
+ 
++<<<<<<< HEAD
+ <<<<<<< HEAD
+ <<<<<<< HEAD
+     printf("Hello! %s %s!\n", first, last);
+@@ -17,6 +18,9 @@ int main(int argc, char **argv)
+ =======
+     printf("Hello! %s %s!\n", first, last);
+ >>>>>>> 33fe8b4 (okaaaay)
++=======
++    printf("hello earthlings, I made changes , %s %s!\n", first, last);
++>>>>>>> d9b4767 (my change!)
+     return 0;
+ }
+ 
