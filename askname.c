@@ -4,7 +4,7 @@
 void askname(char *first, char *last)
 {
 <<<<<<< HEAD
-    printf("Enter your first name pls: My name is Nastya");
+    printf("Enter your first name pls: My name is Nastya. aaaaaaaaaaaaaaaa");
 =======
     printf("Enter your first name pls: ");
 >>>>>>> 33fe8b4 (okaaaay)
