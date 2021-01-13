@@ -8,7 +8,11 @@ int main(int argc, char **argv)
 
     askname(first, last);
 
+<<<<<<< HEAD
     printf("Hello! %s %s!\n", first, last);
+=======
+    printf("hello earthlings, I made changes , %s %s!\n", first, last);
+>>>>>>> d9b4767 (my change!)
     return 0;
 }
 
